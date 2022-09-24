@@ -1,0 +1,21 @@
+{
+  "name": "serveur",
+  "version": "1.0.0",
+  "description": "game serveur",
+  "main": "app.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js"
+  },
+  "author": "Robin gauthier",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.21.4",
+    "socket.io": "^4.5.1",
+    "@socket.io/admin-ui": "^0.4.0"
+  }
+}
